@@ -109,3 +109,77 @@ footer {
     height: 5vh;
     display: flex;
 }
+
+.pizzaria {
+    width: 32vw;
+    justify-content: end;
+    margin-left: 5vw;
+    border: solid 2px yellow;
+}
+
+.pizzaria img {
+    width: 30vw;
+    height: 93vh;
+}
+
+.pepper_pizza {
+    width: 32vw;
+    justify-content: end;
+    margin-right: 5vw;
+    border: solid 2px yellow;
+}
+
+.pepper_pizza img {
+    width: 30vw;
+    height: 93vh;
+}
+
+.texto {
+    width: 45vw;
+    height: 60vh;
+    border: solid 2px pink;
+}
+
+.texto p {
+    padding: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    color: #363636;
+    line-height: 260%;
+    text-align: justify;
+    width: 40vw;
+}
+
+.texto p h2 {
+    border-left: 1vw;
+}
+
+.container {
+    display: flex;
+    width: 96vw;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px orange;
+}
+
+.ctn2 {
+    display: flex;
+    width: 96vw;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDCDC;
+    border: solid 2px orange;
+}
+
+
+main {
+    border: solid 4px red;
+}
+
+body {
+    border: solid 4px green;
+    width: 100vw;
+}

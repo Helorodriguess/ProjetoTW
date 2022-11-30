@@ -1,0 +1,41 @@
+.cardapio {
+    width: 100vw;
+    height: 100vh;
+    border: solid 2px greenyellow;
+    justify-content: center;
+    display: flex;
+}
+
+
+.left {
+    width: 45vw;
+    justify-content: start;
+    align-items: center;
+    height: 95vh;
+    border: solid 1px blue;
+}
+
+.right {
+    width: 45vw;
+    justify-content: start;
+    align-items: center;
+    height: 95vh;
+    border: solid 1px palevioletred;
+}
+
+.pizza {
+    width: 43vw;
+    height: 13vh;
+    border: solid 1px #C0C0C0;
+}
+
+.pizza h3 p {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #363636;
+    padding: 6px;
+}
+
+.pizza p {
+    color: #696969;
+}

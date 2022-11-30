@@ -6,9 +6,27 @@
     <title>Papa's Pizzaria | Home </title>
     <link rel="icon" type="image/png" href="imagens/logohead.png" />
     <link rel="stylesheet" href="css/indexcss.css">
+
+    <script type="text/javascript">
+        function slide1() {
+            document.getElementById('id').src = "imagens/pesto_pizza.png";
+            setTimeout("slide2()", 4000)
+        }
+
+        function slide2() {
+            document.getElementById('id').src = "imagens/pizza_doce1.png";
+            setTimeout("slide3()", 4000)
+        }
+
+        function slide3() {
+            document.getElementById('id').src = "imagens/batata2.jpg";
+            setTimeout("slide1()", 4000)
+        }
+
+    </script>
 </head>
 
-<body>
+<body onload="slide1()">
 
     <header>
         <div class="menu">
@@ -18,8 +36,8 @@
 
             <div class="headerMenu">
                 <div class="headerContent">
-                    <a href="">Home</a>
-                    <a href="">Sobre nós</a>
+                    <a href="index.html">Home</a>
+                    <a href="sobre_nos.html">Sobre nós</a>
                     <a href="">Serviços</a>
                     <a href="">Fotos</a>
                     <a href="">Contato</a>
@@ -32,11 +50,57 @@
 
         </div>
 
-
-
     </header>
 
     <main>
+        <div>
+            <img id="id">
+        </div>
+
+        <div class="container">
+
+            <div class="pizzaria">
+                <img src="imagens/pizzaria.jpg">
+            </div>
+
+            <div class="texto">
+
+                <p>
+                <h2><strong>Papa's Pizzaria</strong></h2>
+                </p>
+                <p>
+                    A Papa's Pizzaria é a melhor escolha se você procura uma boa comida e um bom livro.
+                    Com mais de 10 anos de história, a Papa's conta com uma equipe altamente qualificada
+                    e produtos da mais alta qualidade.
+                    Nosso ambiente foi especificamente pensado pra quem busca a tranquilidade de um espaço amplo
+                    e retro à meia luz e conforto de uma boa história.
+
+                </p>
+            </div>
+
+        </div>
+
+        <div class="ctn2">
+
+            <div class="texto">
+                <p>
+                <h2><strong>As melhores pizzas da região</strong></h2>
+                </p>
+
+                <p>
+                    Nosso cardápio conta com inúmeros sabores de pizza e as mais diversas
+                    massas e porções. Nós buscamos satisfazer todos os clientes, e por isso
+                    oferecemos a maior variedade e estilos de pizzas da região, desde as pizzas
+                    tradicionais, especiais, as premium e doces, incluindo as pizzas veganas
+                    e sem glúten, além das porções e massas e o farto rodízio das quartas,
+                    quintas e sextas feiras.
+                </p>
+            </div>
+            <div class="pepper_pizza">
+                <img src="imagens/pepper_pizza.png">
+            </div>
+
+        </div>
 
     </main>
 
