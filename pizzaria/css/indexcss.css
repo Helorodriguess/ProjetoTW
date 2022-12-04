@@ -114,7 +114,6 @@ footer {
     width: 32vw;
     justify-content: end;
     margin-left: 5vw;
-    border: solid 2px yellow;
 }
 
 .pizzaria img {
@@ -126,7 +125,6 @@ footer {
     width: 32vw;
     justify-content: end;
     margin-right: 5vw;
-    border: solid 2px yellow;
 }
 
 .pepper_pizza img {
@@ -137,7 +135,6 @@ footer {
 .texto {
     width: 45vw;
     height: 60vh;
-    border: solid 2px pink;
 }
 
 .texto p {
@@ -161,7 +158,6 @@ footer {
     padding: 2%;
     justify-content: center;
     align-items: center;
-    border: solid 2px orange;
 }
 
 .ctn2 {
@@ -171,15 +167,8 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #DCDCDC;
-    border: solid 2px orange;
-}
-
-
-main {
-    border: solid 4px red;
 }
 
 body {
-    border: solid 4px green;
     width: 100vw;
 }
