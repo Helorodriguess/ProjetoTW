@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    width: 100vw;
 }
 
 header {
@@ -72,6 +71,7 @@ footer {
     display: flex;
     height: 11vh;
     align-items: center;
+    width: 100vw;
 }
 
 .endereco {
@@ -82,6 +82,7 @@ footer {
     color: #A9A9A9;
     padding-left: 2vw;
     display: flex;
+    width: 80vw;
 }
 
 .redesSociais {
@@ -170,5 +171,15 @@ footer {
 }
 
 body {
+    max-width: 100%;
+    margin: 0;
+}
+
+main {
+    max-width: 100%;
+    margin: 0;
+}
+
+#id {
     width: 100vw;
 }

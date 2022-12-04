@@ -72,3 +72,7 @@
     font-weight: bold;
     color: black;
 }
+
+.mainimg img {
+    width: 100vw;
+}
